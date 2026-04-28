@@ -1,0 +1,136 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Photon Echo Physical AI Layers</title>
+  <desc id="desc">A branded diagram showing the layers of physical AI and highlighting Photon Echo's core platform across digital twins, scenario libraries, synthetic data, and validation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="210" y1="64" x2="1318" y2="864" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08131D"/>
+      <stop offset="1" stop-color="#0E2233"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="863.5" y1="190" x2="863.5" y2="810" gradientUnits="userSpaceOnUse">
+      <stop stop-color="rgba(255,255,255,0.09)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,0.03)"/>
+    </linearGradient>
+    <linearGradient id="glowStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#8BE7FF"/>
+      <stop offset="1" stop-color="#1FB4EB"/>
+    </linearGradient>
+    <linearGradient id="highlight" x1="545" y1="310" x2="1185" y2="690" gradientUnits="userSpaceOnUse">
+      <stop stop-color="rgba(79,211,255,0.20)"/>
+      <stop offset="1" stop-color="rgba(79,211,255,0.06)"/>
+    </linearGradient>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.31 0 0 0 0 0.83 0 0 0 0 1 0 0 0 0.6 0"/>
+      <feBlend in="SourceGraphic" mode="screen"/>
+    </filter>
+    <filter id="cardShadow" x="-10%" y="-10%" width="130%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#02070C" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1228" cy="182" r="242" fill="#4FD3FF" fill-opacity="0.08"/>
+  <circle cx="214" cy="726" r="286" fill="#4FD3FF" fill-opacity="0.06"/>
+  <path d="M1180 112C1283 157 1371 242 1430 356" stroke="#5AD8FF" stroke-opacity="0.12" stroke-width="2"/>
+  <path d="M141 711C290 583 406 493 608 414" stroke="#5AD8FF" stroke-opacity="0.10" stroke-width="2"/>
+
+  <g opacity="0.18">
+    <rect x="1048" y="170" width="294" height="412" rx="22" stroke="#A3EEFF"/>
+    <rect x="1082" y="214" width="226" height="132" rx="14" stroke="#A3EEFF"/>
+    <rect x="1082" y="370" width="102" height="176" rx="14" stroke="#A3EEFF"/>
+    <rect x="1206" y="370" width="102" height="176" rx="14" stroke="#A3EEFF"/>
+    <path d="M1068 236H1320" stroke="#A3EEFF"/>
+    <path d="M1097 276H1294" stroke="#A3EEFF" stroke-opacity="0.6"/>
+    <path d="M1097 307H1242" stroke="#A3EEFF" stroke-opacity="0.4"/>
+    <path d="M1117 574C1148 542 1186 528 1230 527C1266 527 1302 538 1331 562" stroke="#72E2FF" stroke-width="3"/>
+    <path d="M242 636H510" stroke="#A3EEFF" stroke-opacity="0.12"/>
+    <path d="M278 604H470" stroke="#A3EEFF" stroke-opacity="0.08"/>
+  </g>
+
+  <g>
+    <text x="132" y="132" fill="#8DE0FF" font-size="18" font-family="Instrument Sans, Arial, sans-serif" letter-spacing="3.2">PHYSICAL AI STACK</text>
+    <text x="132" y="188" fill="#F2FAFF" font-size="56" font-weight="700" font-family="Space Grotesk, Instrument Sans, Arial, sans-serif">Photon Echo Layers</text>
+    <text x="132" y="234" fill="#A7BCCD" font-size="24" font-family="Instrument Sans, Arial, sans-serif">Simulation, synthetic data, and validation infrastructure for real-world AI systems.</text>
+    <text x="132" y="282" fill="#D7F7FF" font-size="19" font-family="Instrument Sans, Arial, sans-serif">Photon Echo creates the controlled middle layer between field operations and deployment confidence.</text>
+  </g>
+
+  <g filter="url(#cardShadow)">
+    <rect x="540" y="208" width="692" height="602" rx="34" fill="url(#panel)" stroke="rgba(255,255,255,0.10)"/>
+    <rect x="580" y="304" width="562" height="360" rx="28" fill="url(#highlight)" stroke="url(#glowStroke)" stroke-opacity="0.72"/>
+  </g>
+
+  <g filter="url(#softGlow)">
+    <path d="M585 345H1138" stroke="#6CE0FF" stroke-opacity="0.42" stroke-width="2"/>
+    <path d="M585 640H1138" stroke="#6CE0FF" stroke-opacity="0.42" stroke-width="2"/>
+  </g>
+
+  <g>
+    <text x="1260" y="366" fill="#4FD3FF" font-size="16" font-weight="700" font-family="Instrument Sans, Arial, sans-serif" letter-spacing="2.4">PHOTON ECHO PLATFORM</text>
+    <path d="M1218 320V665" stroke="#4FD3FF" stroke-width="3"/>
+    <path d="M1218 320H1190" stroke="#4FD3FF" stroke-width="3"/>
+    <path d="M1218 665H1190" stroke="#4FD3FF" stroke-width="3"/>
+  </g>
+
+  <g font-family="Instrument Sans, Arial, sans-serif">
+    <g>
+      <rect x="598" y="220" width="526" height="72" rx="20" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.10)"/>
+      <circle cx="642" cy="256" r="22" fill="#123040" stroke="#4FD3FF"/>
+      <text x="635" y="263" fill="#8DE0FF" font-size="18" font-weight="700">1</text>
+      <text x="682" y="250" fill="#F5FBFF" font-size="26" font-weight="700">Deployment, Monitoring &amp; Iteration</text>
+      <text x="682" y="273" fill="#A7BCCD" font-size="17">Models, autonomy stacks, and workflows improve through measured release cycles.</text>
+    </g>
+
+    <g>
+      <rect x="598" y="304" width="526" height="72" rx="20" fill="rgba(79,211,255,0.16)" stroke="rgba(111,229,255,0.60)"/>
+      <circle cx="642" cy="340" r="22" fill="#123040" stroke="#4FD3FF"/>
+      <text x="635" y="347" fill="#8DE0FF" font-size="18" font-weight="700">2</text>
+      <text x="682" y="334" fill="#F5FBFF" font-size="26" font-weight="700">Validation &amp; Benchmarking</text>
+      <text x="682" y="357" fill="#D8F7FF" font-size="17">Locked scenario sets, repeatable regression checks, and customer-specific performance review.</text>
+    </g>
+
+    <g>
+      <rect x="598" y="388" width="526" height="72" rx="20" fill="rgba(79,211,255,0.16)" stroke="rgba(111,229,255,0.60)"/>
+      <circle cx="642" cy="424" r="22" fill="#123040" stroke="#4FD3FF"/>
+      <text x="635" y="431" fill="#8DE0FF" font-size="18" font-weight="700">3</text>
+      <text x="682" y="418" fill="#F5FBFF" font-size="26" font-weight="700">Synthetic Data Programs</text>
+      <text x="682" y="441" fill="#D8F7FF" font-size="17">Structured training and test data for robotics, autonomy, inspection, and industrial operations.</text>
+    </g>
+
+    <g>
+      <rect x="598" y="472" width="526" height="72" rx="20" fill="rgba(79,211,255,0.16)" stroke="rgba(111,229,255,0.60)"/>
+      <circle cx="642" cy="508" r="22" fill="#123040" stroke="#4FD3FF"/>
+      <text x="635" y="515" fill="#8DE0FF" font-size="18" font-weight="700">4</text>
+      <text x="682" y="502" fill="#F5FBFF" font-size="26" font-weight="700">Scenario Libraries</text>
+      <text x="682" y="525" fill="#D8F7FF" font-size="17">Reusable operating conditions, edge cases, and environment variation for controlled testing.</text>
+    </g>
+
+    <g>
+      <rect x="598" y="556" width="526" height="72" rx="20" fill="rgba(79,211,255,0.16)" stroke="rgba(111,229,255,0.60)"/>
+      <circle cx="642" cy="592" r="22" fill="#123040" stroke="#4FD3FF"/>
+      <text x="635" y="599" fill="#8DE0FF" font-size="18" font-weight="700">5</text>
+      <text x="682" y="586" fill="#F5FBFF" font-size="26" font-weight="700">Digital Twins &amp; Simulation Infrastructure</text>
+      <text x="682" y="609" fill="#D8F7FF" font-size="17">Simulation-ready environments that mirror customer operations and support safe iteration.</text>
+    </g>
+
+    <g>
+      <rect x="598" y="640" width="526" height="72" rx="20" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.10)"/>
+      <circle cx="642" cy="676" r="22" fill="#123040" stroke="#4FD3FF"/>
+      <text x="635" y="683" fill="#8DE0FF" font-size="18" font-weight="700">6</text>
+      <text x="682" y="670" fill="#F5FBFF" font-size="26" font-weight="700">Robots, Sensors &amp; Physical Operations</text>
+      <text x="682" y="693" fill="#A7BCCD" font-size="17">The real-world systems producing, receiving, and acting on data in dynamic environments.</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="132" y="706" width="394" height="104" rx="24" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)"/>
+    <text x="164" y="742" fill="#8DE0FF" font-size="15" font-weight="700" font-family="Instrument Sans, Arial, sans-serif" letter-spacing="2.2">WHAT PHOTON ECHO DELIVERS</text>
+    <text x="164" y="774" fill="#EFF8FD" font-size="26" font-weight="700" font-family="Space Grotesk, Instrument Sans, Arial, sans-serif">Controlled inputs.</text>
+    <text x="164" y="802" fill="#EFF8FD" font-size="26" font-weight="700" font-family="Space Grotesk, Instrument Sans, Arial, sans-serif">Repeatable evaluation.</text>
+  </g>
+
+  <g opacity="0.8">
+    <text x="1308" y="790" text-anchor="end" fill="#A7BCCD" font-size="18" font-family="Instrument Sans, Arial, sans-serif">PHOTON ECHO</text>
+    <path d="M1332 790H1468" stroke="#4FD3FF" stroke-width="4" stroke-linecap="round"/>
+    <path d="M1332 815H1438" stroke="#4FD3FF" stroke-opacity="0.4" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>
